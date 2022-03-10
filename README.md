@@ -1,4 +1,7 @@
-# PyTorch SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
+#Pytorch SimCLR for weak supervision for the Deep Learning in practice MVA course. 
+Small modifications have been made compared to the original repo, notably in the feature_eval folder where we only train on the first 100 examples of cifar10. Also, we changed the dependencies (Pytorch =1.5.0), otherwise the code could not run.
+
+## PyTorch SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
 [![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)
 
 
